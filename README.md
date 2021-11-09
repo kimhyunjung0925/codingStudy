@@ -2,10 +2,10 @@
 Koreait학원 국기과정 수강생 코딩스터디
 
 ## 규칙!!
-- <span style="background:blue;color:yellow"> GitHub 사용자 이름 or 자신의 이름 으로 폴더 만들기!!!!</span>
+- <mark> **_GitHub 사용자 이름 or 자신의 이름으로 만든 폴더 내에서 작업하기!!!!!_** </mark>
 - _문제_ 는 _홀수번호_ 문제를 풀면 됩니다~ 
 - _commit_ 은 _문제 제목_ 과 일치 시키기
-- <span style="background:yellow;color:red">매일 23시 30분 ~ 01시</span> 에는 해당 저장소 `clone`, `fetch`, `merge` <span style="background:yellow;color:red">금지</span> 권장 <br>
+- <mark>매일 23시 30분 ~ 01시</mark> 에는 해당 저장소 `clone`, `fetch`, `merge` <mark>금지</mark> 권장 <br>
 에러방지 차원입니다.<br>해당 시간은 pull request 처리 시간입니다!!
 
 ## GitHub 사용방법

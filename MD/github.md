@@ -15,7 +15,7 @@ git clone [원격저장소 주소]
 - `Git Bash` 창에서 `git clone [저장소 주소]` 를 입력한다.
 
 ---
-<span style="background:yellow;color:red;font-size:27px"> 원격 저장소를 로컬 저장소로 복사 이후<br> GitHub 사용자 이름 or 자신의 이름 으로 폴더 만들고<br> 해당 폴더 안에서 작업 할 것!!!!!</span>
+## <mark> 원격 저장소를 로컬 저장소로 복사 이후<br> GitHub 사용자 이름 or 자신의 이름 으로 폴더 만들고<br> 해당 폴더 안에서 작업 할 것!!!!!</mark>
 
 ---
 
