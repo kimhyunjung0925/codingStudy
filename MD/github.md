@@ -1,12 +1,17 @@
 # Git Fork 사용방법
-<!-- TODO 간략하게 바꾸고 상세한 내용은 링크로 연결하기. -->
+---
+1. 처음 이용시 순서<br> 
+[1번](#1-Fork ) => [2번](#2-저장소-복사하기) => [3번](#3-브랜치-생성) => [4번](#4-add-/-commit-/-push) => [5번](#5-pull-request<br>) => merge 완료 => [6번](#6-브랜치-이동-/-삭제) => [7번](#7-원격저장소-추가) => [8번](#8-fetch-/-merge-/-push)
+2. 두번째 부터 이용순서 <br> 
+[8번](#8-fetch-/-merge-/-push) => [3번](#3-브랜치-생성) => [4번](#4-add-/-commit-/-push) => [5번](#5-pull-request<br>) => merge 완료 => [6번](#6-브랜치-이동-/-삭제)
+---
 ## 1. Fork 
 ![Fork이미지](../img/fork.png)
 - Fork 할 저장소의 위치가 맞는 가 확인 하기!!
 - 저장소의 위치가 맞다면 Fork 하기
 - `개별 Repositories` 확인 -> Fork한 저장소가 자동 생성 되어있음.
 
-## 2. 원격 저장소를 로컬 저장소로 복사하기 (clone 이용)
+## 2. 저장소 복사하기
 ```
 git clone [원격저장소 주소]
 ```
@@ -36,7 +41,7 @@ git push origin [생성한 브랜치 명]
 ---
 ### **_여기까지 하면 개인 원격저장소에 push 되어있다._**
 ---
-## 5. pull request 보내기<br>
+## 5. pull request<br>
 
 <!-- TODO 사진추가 -->
 - pull request 보내기 방법 1
@@ -70,17 +75,17 @@ $ git remote add [해당 저장소 별칭] [원격저장소]
 - `git remote -v` 시 나오는 모습<br>
 ![remote -v](../img/remote.PNG)
 
-## 8. fetch(확인) / merge(병합) / push <br>
+## 8. fetch / merge / push
 ```
 $ git fetch [저장소 별칭]
 $ git merge [저장소 별칭]/[브랜치 명]
 $ git push origin [원격저장소 브랜치명]
 ```
-- fetch <br>
+- fetch(확인) <br>
     - [7번 작업](#7-원격저장소-추가)에서 입력한 별칭<br>
 - fetch 예시<br>
 ![fetch](../img/fetch.PNG)
-- merge<br>
+- merge(병합)<br>
     - [7번 작업](#7-원격저장소-추가)에서 입력한 별칭<br>
     - [1번](#1-Fork) 원격저장소 주소 브랜치명<br>
 
