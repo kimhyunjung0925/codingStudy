@@ -3,10 +3,27 @@ Koreait학원 국기과정 수강생 코딩스터디
 
 ## 규칙!!
 - <mark> **_GitHub 사용자 이름 or 자신의 이름으로 만든 폴더 내에서 작업하기!!!!!_** </mark>
-- _문제_ 는 _홀수번호_ 문제를 풀면 됩니다~ 
-- _commit_ 은 _문제 제목_ 과 일치 시키기
-- <mark>매일 23시 30분 ~ 01시</mark> 에는 해당 저장소 `clone`, `fetch`, `merge` <mark>금지</mark> 권장 <br>
-에러방지 차원입니다.<br>해당 시간은 pull request 처리 시간입니다!!
+
+- 파일명 통일
+```
+[사이트명]_[문제번호].txt
+[사이트명]_[문제번호].java
+```
+```
+BOJ_2557.txt
+BOJ_2557.java
+```
+- 각 문제에 해당하는 링크 및 제목 주석달기!
+```
+/*
+ Hellow World
+ https://www.acmicpc.net/problem/2557
+*/
+```
+```
+// Hellow World - https://www.acmicpc.net/problem/2557
+```
+- <mark>매일 23시 30분 ~ 00시</mark> 에는 해당 저장소 `clone`, `fetch`, `merge` <mark>금지</mark> 권장 <br> 에러방지 차원입니다.<br>해당 시간에 pull request 처리하는 시간하겠습니다!!
 
 ## GitHub 사용방법
 - 아래의 방법을 자세히 알고싶다면 => *[클릭](./MD/github.md)*
@@ -38,11 +55,13 @@ $ git push origin [나의 원격저장소 브랜치명]
 
 
 ## 스터디 일정
+- 타이틀별 _세부문제_ 는 _홀수번호_ 위주로 풀면 됩니다~ 
+<!-- TODO 스터디할때 정하기. -->
 | 일시 | 내용 |
 :---:|:---:
 11.11(목)|자바 / github사용법 / [입출력과 사칙연산](https://www.acmicpc.net/step/1)
-11.18(목)|[if문](https://www.acmicpc.net/step/4) / [for문](https://www.acmicpc.net/step/3) / [while문](https://www.acmicpc.net/step/2) 
-11.25(목)|[1차원 배열](https://www.acmicpc.net/step/6) / [함수](https://www.acmicpc.net/step/5) / [문자열](https://www.acmicpc.net/step/7)
+11.18(목)|[if문](https://www.acmicpc.net/step/4) / [for문](https://www.acmicpc.net/step/3) / [while문](https://www.acmicpc.net/step/2) / [1차원 배열](https://www.acmicpc.net/step/6) 
+11.25(목)|[함수](https://www.acmicpc.net/step/5) / [문자열](https://www.acmicpc.net/step/7)
 12.02(목)|
 12.09(목)|
 12.16(목)|

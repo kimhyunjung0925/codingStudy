@@ -6,7 +6,7 @@
 [8번](#8-fetch-/-merge-/-push) => [3번](#3-브랜치-생성) => [4번](#4-add-/-commit-/-push) => [5번](#5-pull-request<br>) => merge 완료 => [6번](#6-브랜치-이동-/-삭제)
 ---
 ## 1. Fork 
-![Fork이미지](../img/fork.png)
+![Fork이미지](./img/fork.png)
 - Fork 할 저장소의 위치가 맞는 가 확인 하기!!
 - 저장소의 위치가 맞다면 Fork 하기
 - `개별 Repositories` 확인 -> Fork한 저장소가 자동 생성 되어있음.
@@ -15,7 +15,7 @@
 ```
 git clone [원격저장소 주소]
 ```
-![clone이미지](../img/clone.png)
+![clone이미지](./img/clone.png)
 - `개별 Repositories`에서 Fork한 저장소 주소를 복사
 - `Git Bash` 창에서 `git clone [저장소 주소]` 를 입력한다.
 
@@ -45,12 +45,12 @@ git push origin [생성한 브랜치 명]
 
 <!-- TODO 사진추가 -->
 - pull request 보내기 방법 1
-![pullRequest1](../img/pullRequest1.PNG)
+![pullRequest1](./img/pullRequest1.PNG)
 - pull request 보내기 방법 2 (merge 거절 되었을 때 다시 시도 방법)
-![pullRequest1](../img/pullRequest2.PNG)
+![pullRequest1](./img/pullRequest2.PNG)
 - 방법 1 or 방법 2 이후 진행 순서
-![pullRequest1](../img/pullRequest3.PNG)
-![pullRequest1](../img/pullRequest4.PNG)
+![pullRequest1](./img/pullRequest3.PNG)
+![pullRequest1](./img/pullRequest4.PNG)
 - 위 이미지랑 동일 하면 성공!!
 - <mark>merge 기다리기!!!!</mark>
 ---
@@ -73,7 +73,7 @@ $ git remote add [해당 저장소 별칭] [원격저장소]
 - 별칭(변수 같은 것.)은 자유롭게 입력 하면됨.
 - [1번 작업](#1-Fork ) 원격저장소 주소<br>
 - `git remote -v` 시 나오는 모습<br>
-![remote -v](../img/remote.PNG)
+![remote -v](./img/remote.PNG)
 
 ## 8. fetch / merge / push
 ```
@@ -84,17 +84,17 @@ $ git push origin [원격저장소 브랜치명]
 - fetch(확인) <br>
     - [7번 작업](#7-원격저장소-추가)에서 입력한 별칭<br>
 - fetch 예시<br>
-![fetch](../img/fetch.PNG)
+![fetch](./img/fetch.PNG)
 - merge(병합)<br>
     - [7번 작업](#7-원격저장소-추가)에서 입력한 별칭<br>
     - [1번](#1-Fork) 원격저장소 주소 브랜치명<br>
 
 - merge 예시<br>
-![merge](../img/merge.PNG)
+![merge](./img/merge.PNG)
 - push<br>
     - [6번](#6-브랜치-이동-/-삭제)에서 이동한 브랜치명<br>
 - push 예시<br>
-![push](../img/push.PNG)
+![push](./img/push.PNG)
 
 ---
 ## **_여기까지 하면 pull request 한 내용이 나의 원격저장소에도 적용되었다._**
