@@ -60,7 +60,7 @@ $ git push origin [나의 원격저장소 브랜치명]
 | 일시 | 내용 |
 :---:|:---:
 11.11(목)|자바 / github사용법 / [입출력과 사칙연산](https://www.acmicpc.net/step/1)
-11.18(목)|[if문](https://www.acmicpc.net/step/4) / [for문](https://www.acmicpc.net/step/3) / [while문](https://www.acmicpc.net/step/2) /  
+11.18(목)|[if문](https://www.acmicpc.net/step/4) / [for문](https://www.acmicpc.net/step/3) / [while문](https://www.acmicpc.net/step/2) 
 11.25(목)|[1차원 배열](https://www.acmicpc.net/step/6) / [함수](https://www.acmicpc.net/step/5) / [문자열](https://www.acmicpc.net/step/7)
 12.02(목)|
 12.09(목)|
