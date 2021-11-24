@@ -1,18 +1,25 @@
 package baekjoon.function;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Function4673 {
     public static void main(String[] args) {
-        boolean[] all = new boolean[10001];
+        Scanner sc = new Scanner(System.in);
+        sc.close();
 
-        for (int i = 1; i <= 10000; i++) {
-            int n = d(i);
-            if(n <= 10000){
-                all[n] = true;
+        boolean[] total = new boolean[10001];
+        Arrays.fill(total, false); // 0 ~ 10000까지 폴스
+
+        for(int i = 1; i< total.length; i++){
+            int v = d(i);
+            if(v < 10001){
+                total[v] = true;
             }
         }
 
-        for (int i = 1; i <= 10000; i++) {
-            if (!all[i]) {
+        for(int i = 1; i< total.length; i++){
+            if(total[i] == false){
                 System.out.println(i);
             }
         }
@@ -21,11 +28,12 @@ public class Function4673 {
     public static int d(int n){
         int sum = n;
 
-        while (n != 0){
+        while(n != 0){
             sum += n % 10;
-            n = n / 10;
+            n = n /10;
         }
 
         return sum;
     }
+
 }
