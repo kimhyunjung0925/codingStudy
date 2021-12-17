@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sum(n1 = 1, n2 = 2, n3 = 3, n4 = 4){
+            console.log(n1+ n2+ n3+ n4);
+        }
+        sum(); // 아무것도 안적으면 위에 값이 디폴트값
+        sum(10); // n1에 10들어감
+        sum(10,20); //n1에 10, n2에 20
+        sum(10,20,30); //n1에 10, n2에 20,n3에 30
+        sum(10,20,30,40); //n1에 10, n2에 20,n3에 30, n4에 40
+        sum(10,20,30,40,50); //4개만 받기로 했는데 더보내면 뒤에값은 쌩깜
+
+        function multi(n1 = null, n2 = 1, n3 = 2){ 
+            // null은 0으로 쳐줌
+            // 아무것도 안하면 NoN
+            console.log(n1 * n2 * n3);
+        }
+        multi();
+    </script>
+</body>
+</html>
